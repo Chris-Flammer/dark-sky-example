@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056FD0D11C220D6A00B8BEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD0D01C220D6A00B8BEFA /* main.m */; };
+		056FD0D41C220D6A00B8BEFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD0D31C220D6A00B8BEFA /* AppDelegate.m */; };
+		056FD0DA1C220D6A00B8BEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056FD0D81C220D6A00B8BEFA /* Main.storyboard */; };
+		056FD0DC1C220D6A00B8BEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056FD0DB1C220D6A00B8BEFA /* Assets.xcassets */; };
+		056FD0DF1C220D6A00B8BEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056FD0DD1C220D6A00B8BEFA /* LaunchScreen.storyboard */; };
+		056FD0EA1C220D6A00B8BEFA /* DarkSkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD0E91C220D6A00B8BEFA /* DarkSkyTests.m */; };
+		056FD0F51C220D6A00B8BEFA /* DarkSkyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD0F41C220D6A00B8BEFA /* DarkSkyUITests.m */; };
+		056FD1041C220F0E00B8BEFA /* ForecastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD1031C220F0E00B8BEFA /* ForecastTableViewController.m */; };
+		056FD1061C22103200B8BEFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056FD1051C22103200B8BEFA /* CoreLocation.framework */; };
+		056FD1091C22260C00B8BEFA /* WeekdayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FD1081C22260C00B8BEFA /* WeekdayCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056FD0E61C220D6A00B8BEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056FD0C41C220D6900B8BEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056FD0CB1C220D6A00B8BEFA;
+			remoteInfo = DarkSky;
+		};
+		056FD0F11C220D6A00B8BEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056FD0C41C220D6900B8BEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056FD0CB1C220D6A00B8BEFA;
+			remoteInfo = DarkSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056FD0CC1C220D6A00B8BEFA /* DarkSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FD0D01C220D6A00B8BEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056FD0D21C220D6A00B8BEFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		056FD0D31C220D6A00B8BEFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		056FD0D91C220D6A00B8BEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056FD0DB1C220D6A00B8BEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056FD0DE1C220D6A00B8BEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056FD0E01C220D6A00B8BEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FD0E51C220D6A00B8BEFA /* DarkSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FD0E91C220D6A00B8BEFA /* DarkSkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkSkyTests.m; sourceTree = "<group>"; };
+		056FD0EB1C220D6A00B8BEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FD0F01C220D6A00B8BEFA /* DarkSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FD0F41C220D6A00B8BEFA /* DarkSkyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkSkyUITests.m; sourceTree = "<group>"; };
+		056FD0F61C220D6A00B8BEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FD1021C220F0E00B8BEFA /* ForecastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastTableViewController.h; sourceTree = "<group>"; };
+		056FD1031C220F0E00B8BEFA /* ForecastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastTableViewController.m; sourceTree = "<group>"; };
+		056FD1051C22103200B8BEFA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		056FD1071C22260C00B8BEFA /* WeekdayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekdayCell.h; sourceTree = "<group>"; };
+		056FD1081C22260C00B8BEFA /* WeekdayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekdayCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056FD0C91C220D6A00B8BEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FD1061C22103200B8BEFA /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0E21C220D6A00B8BEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0ED1C220D6A00B8BEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056FD0C31C220D6900B8BEFA = {
+			isa = PBXGroup;
+			children = (
+				056FD1051C22103200B8BEFA /* CoreLocation.framework */,
+				056FD0CE1C220D6A00B8BEFA /* DarkSky */,
+				056FD0E81C220D6A00B8BEFA /* DarkSkyTests */,
+				056FD0F31C220D6A00B8BEFA /* DarkSkyUITests */,
+				056FD0CD1C220D6A00B8BEFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056FD0CD1C220D6A00B8BEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056FD0CC1C220D6A00B8BEFA /* DarkSky.app */,
+				056FD0E51C220D6A00B8BEFA /* DarkSkyTests.xctest */,
+				056FD0F01C220D6A00B8BEFA /* DarkSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056FD0CE1C220D6A00B8BEFA /* DarkSky */ = {
+			isa = PBXGroup;
+			children = (
+				056FD0D21C220D6A00B8BEFA /* AppDelegate.h */,
+				056FD0D31C220D6A00B8BEFA /* AppDelegate.m */,
+				056FD1021C220F0E00B8BEFA /* ForecastTableViewController.h */,
+				056FD1031C220F0E00B8BEFA /* ForecastTableViewController.m */,
+				056FD1071C22260C00B8BEFA /* WeekdayCell.h */,
+				056FD1081C22260C00B8BEFA /* WeekdayCell.m */,
+				056FD0D81C220D6A00B8BEFA /* Main.storyboard */,
+				056FD0DB1C220D6A00B8BEFA /* Assets.xcassets */,
+				056FD0DD1C220D6A00B8BEFA /* LaunchScreen.storyboard */,
+				056FD0E01C220D6A00B8BEFA /* Info.plist */,
+				056FD0CF1C220D6A00B8BEFA /* Supporting Files */,
+			);
+			path = DarkSky;
+			sourceTree = "<group>";
+		};
+		056FD0CF1C220D6A00B8BEFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056FD0D01C220D6A00B8BEFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056FD0E81C220D6A00B8BEFA /* DarkSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				056FD0E91C220D6A00B8BEFA /* DarkSkyTests.m */,
+				056FD0EB1C220D6A00B8BEFA /* Info.plist */,
+			);
+			path = DarkSkyTests;
+			sourceTree = "<group>";
+		};
+		056FD0F31C220D6A00B8BEFA /* DarkSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				056FD0F41C220D6A00B8BEFA /* DarkSkyUITests.m */,
+				056FD0F61C220D6A00B8BEFA /* Info.plist */,
+			);
+			path = DarkSkyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056FD0CB1C220D6A00B8BEFA /* DarkSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FD0F91C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSky" */;
+			buildPhases = (
+				056FD0C81C220D6A00B8BEFA /* Sources */,
+				056FD0C91C220D6A00B8BEFA /* Frameworks */,
+				056FD0CA1C220D6A00B8BEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSky;
+			productName = DarkSky;
+			productReference = 056FD0CC1C220D6A00B8BEFA /* DarkSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056FD0E41C220D6A00B8BEFA /* DarkSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FD0FC1C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSkyTests" */;
+			buildPhases = (
+				056FD0E11C220D6A00B8BEFA /* Sources */,
+				056FD0E21C220D6A00B8BEFA /* Frameworks */,
+				056FD0E31C220D6A00B8BEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056FD0E71C220D6A00B8BEFA /* PBXTargetDependency */,
+			);
+			name = DarkSkyTests;
+			productName = DarkSkyTests;
+			productReference = 056FD0E51C220D6A00B8BEFA /* DarkSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056FD0EF1C220D6A00B8BEFA /* DarkSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FD0FF1C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSkyUITests" */;
+			buildPhases = (
+				056FD0EC1C220D6A00B8BEFA /* Sources */,
+				056FD0ED1C220D6A00B8BEFA /* Frameworks */,
+				056FD0EE1C220D6A00B8BEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056FD0F21C220D6A00B8BEFA /* PBXTargetDependency */,
+			);
+			name = DarkSkyUITests;
+			productName = DarkSkyUITests;
+			productReference = 056FD0F01C220D6A00B8BEFA /* DarkSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056FD0C41C220D6900B8BEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chris Flammer";
+				TargetAttributes = {
+					056FD0CB1C220D6A00B8BEFA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					056FD0E41C220D6A00B8BEFA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 056FD0CB1C220D6A00B8BEFA;
+					};
+					056FD0EF1C220D6A00B8BEFA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 056FD0CB1C220D6A00B8BEFA;
+					};
+				};
+			};
+			buildConfigurationList = 056FD0C71C220D6900B8BEFA /* Build configuration list for PBXProject "DarkSky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056FD0C31C220D6900B8BEFA;
+			productRefGroup = 056FD0CD1C220D6A00B8BEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056FD0CB1C220D6A00B8BEFA /* DarkSky */,
+				056FD0E41C220D6A00B8BEFA /* DarkSkyTests */,
+				056FD0EF1C220D6A00B8BEFA /* DarkSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056FD0CA1C220D6A00B8BEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FD0DF1C220D6A00B8BEFA /* LaunchScreen.storyboard in Resources */,
+				056FD0DC1C220D6A00B8BEFA /* Assets.xcassets in Resources */,
+				056FD0DA1C220D6A00B8BEFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0E31C220D6A00B8BEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0EE1C220D6A00B8BEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056FD0C81C220D6A00B8BEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FD0D41C220D6A00B8BEFA /* AppDelegate.m in Sources */,
+				056FD1041C220F0E00B8BEFA /* ForecastTableViewController.m in Sources */,
+				056FD1091C22260C00B8BEFA /* WeekdayCell.m in Sources */,
+				056FD0D11C220D6A00B8BEFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0E11C220D6A00B8BEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FD0EA1C220D6A00B8BEFA /* DarkSkyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FD0EC1C220D6A00B8BEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FD0F51C220D6A00B8BEFA /* DarkSkyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056FD0E71C220D6A00B8BEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056FD0CB1C220D6A00B8BEFA /* DarkSky */;
+			targetProxy = 056FD0E61C220D6A00B8BEFA /* PBXContainerItemProxy */;
+		};
+		056FD0F21C220D6A00B8BEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056FD0CB1C220D6A00B8BEFA /* DarkSky */;
+			targetProxy = 056FD0F11C220D6A00B8BEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056FD0D81C220D6A00B8BEFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056FD0D91C220D6A00B8BEFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056FD0DD1C220D6A00B8BEFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056FD0DE1C220D6A00B8BEFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056FD0F71C220D6A00B8BEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056FD0F81C220D6A00B8BEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056FD0FA1C220D6A00B8BEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		056FD0FB1C220D6A00B8BEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		056FD0FD1C220D6A00B8BEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DarkSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky.app/DarkSky";
+			};
+			name = Debug;
+		};
+		056FD0FE1C220D6A00B8BEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DarkSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky.app/DarkSky";
+			};
+			name = Release;
+		};
+		056FD1001C220D6A00B8BEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DarkSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DarkSky;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		056FD1011C220D6A00B8BEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DarkSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisflammer.DarkSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DarkSky;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056FD0C71C220D6900B8BEFA /* Build configuration list for PBXProject "DarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FD0F71C220D6A00B8BEFA /* Debug */,
+				056FD0F81C220D6A00B8BEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056FD0F91C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FD0FA1C220D6A00B8BEFA /* Debug */,
+				056FD0FB1C220D6A00B8BEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		056FD0FC1C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FD0FD1C220D6A00B8BEFA /* Debug */,
+				056FD0FE1C220D6A00B8BEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		056FD0FF1C220D6A00B8BEFA /* Build configuration list for PBXNativeTarget "DarkSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FD1001C220D6A00B8BEFA /* Debug */,
+				056FD1011C220D6A00B8BEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056FD0C41C220D6900B8BEFA /* Project object */;
+}
